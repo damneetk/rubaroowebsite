@@ -250,23 +250,25 @@
       <!-- navigation bar begins-->
       <nav class="navbar navbar-expand-sm navbar-dark">
         
-         <a href="index.html" class="navbar-brand"><img src="logonavigation.jpg" alt="Rubaroo logo" width="50" height="50" alt="Rubaroo logo"></a>
-          <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarCollapse">
+        <a href="index.html" class="navbar-brand"><img src="logonavigation.jpg" alt="Rubaroo logo" width="50" height="50" alt="Rubaroo logo"></a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
           </button>     
           
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                 </li>
               <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Rubaroo</a>
+                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="indexrubaroo.html" role="button" aria-haspopup="true" aria-expanded="false">Rubaroo</a>
                  <div class="dropdown-menu">
                    <a class="dropdown-item" href="indexrubaroo.html">Our Story</a>
                    <div class="dropdown-divider"></div>
-                   <a class="dropdown-item" href="#">Value</a>
+                   <a class="dropdown-item" href="#">Vision</a>
                    <div class="dropdown-divider"></div>
                    <a class="dropdown-item" href="#">Mission</a>
-                   <div class="dropdown-divider"></div>
-                   <a class="dropdown-item" href="#">Philosophy</a>
                    <div class="dropdown-divider"></div>
                    <a class="dropdown-item" href="#">Approach</a>
                    <div class="dropdown-divider"></div>
@@ -278,42 +280,30 @@
                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Issues</a>
                  
                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Early & Child Marriage</a></li>
+                    <li><a class="dropdown-item" href="#">Gender</a></li>
                     <div class="dropdown-divider"></div>
                     <li><a class="dropdown-item" href="#">Interfaith</a></li>
                     <div class="dropdown-divider"></div>
-                    <li><a class="dropdown-item" href="#">Campaigns</a></li>
-                    <div class="dropdown-divider"></div>
-                    <li><a class="dropdown-item" href="#">Gender</a></li>
-                    <div class="dropdown-divider"></div>
+                    <li><a class="dropdown-item" href="#">Youth Development</a></li>
                     
-                    <li><a class="dropdown-item dropdown-toggle" href="#">Sustainable Development</a>
-                    
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Rural Exposure</a></li>
-                      <div class="dropdown-divider"></div>
-                      <li><a class="dropdown-item" href="#">Rural Inturnship</a></li>
-                      <div class="dropdown-divider"></div>
-                      <li><a class="dropdown-item" href="#">Circle of stories</a></li>
-                      </ul>
-                    </li>
-                    <div class="dropdown-divider"></div>
-
-                    <li><a class="dropdown-item dropdown-toggle" href="#">Leadership</a>
-                      <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Youth</a></li>
-                          <div class="dropdown-divider"></div>
-                          <li><a class="dropdown-item" href="#">Adolescent</a></li>
-                          <div class="dropdown-divider"></div>
-                          <li><a class="dropdown-item" href="#">Mentors</a></li>
-                          <div class="dropdown-divider"></div>
-                          <li><a class="dropdown-item" href="#">Teachers</a></li>
-                          <div class="dropdown-divider"></div>
-                          <li><a class="dropdown-item" href="#">Social<br>Enterpreneurs</a></li>
-                          </ul>
-                       </li>
-                    </ul>
+                  </ul>
               </li>
+
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Programe</a>
+                  
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#">Campaign</a></li>
+                     <div class="dropdown-divider"></div>
+                     <li><a class="dropdown-item" href="#">Youth Development</a></li>
+                     <div class="dropdown-divider"></div>
+                     <li><a class="dropdown-item" href="#">Adoloscent Development</a></li>
+                     <div class="dropdown-divider"></div>
+                     <li><a class="dropdown-item" href="#">Nurturer Development</a></li>
+                     
+                   </ul>
+               </li>
+            
               <li class="nav-item">
                  <a class="nav-link" href="indexstories.html">Stories</a>
               </li>
@@ -321,16 +311,16 @@
                  <a class="nav-link" href="indexcontact.html">Contact</a>
               </li>
               <li class="nav-item">
-                 <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                 <a class="nav-link" href="#">Donate</a>
-              </li>
+                  <a class="nav-link" href="#">Blog</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Donate</a>
+               </li>
             </ul>
           
         </div>
       </nav>
-   <!-- navigation bar begins-->
+   <!-- navigation bar ends-->
       
    <!-- carousel begins-->
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -338,45 +328,46 @@
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             
             <picture>
-              <source srcset="shruti2000by851.png" alt="Portrait of a person with quote" media="(min-width: 1400px)">
-              <source srcset="shruti1400by618.png" alt="Portrait of a person with quote" media="(min-width: 768px)">
-               <source srcset="shruti800by400.png" alt="Portrait of a person with quote"media="(min-width: 576px)">
-              <img srcset="shruti600by400.png" alt="Portrait of a person with quote" class="img-fluid">
+              <source srcset="group2000by851.png" alt="Group photo" media="(min-width: 1400px)">
+              <source srcset="group1400by618.png" alt="Group photo" media="(min-width: 768px)">
+               <source srcset="group800by400.png" alt="Group photo"media="(min-width: 576px)">
+              <img srcset="group600by400.png" alt="Group photo" class="img-fluid">
             </picture>
             
           </div>
           <div class="carousel-item">
             
             <picture>
-              <source srcset="vishnu2000by852.png" alt="Portrait of a person with quote" media="(min-width: 1400px)">
-              <source srcset="vishnu1400by618.png" alt="Portrait of a person with quote" media="(min-width: 768px)">
-               <source srcset="vishnu800by400.png" alt="Portrait of a person with quote" media="(min-width: 576px)">
-              <img srcset="vishnu600by400.png" alt="Portrait of a person with quote" class="img-fluid">
+              <source srcset="ayesha2000by850.png" alt="Portrait of a person with quote" media="(min-width: 1400px)">
+              <source srcset="ayesha1400by618.png" alt="Portrait of a person with quote" media="(min-width: 768px)">
+               <source srcset="ayesha800by400.png" alt="Portrait of a person with quote" media="(min-width: 576px)">
+              <img srcset="ayesha600by400.png" alt="Portrait of a person with quote" class="img-fluid">
             </picture>
            
           </div>
           <div class="carousel-item">
             
             <picture>
-              <source srcset="zara2000by851.png" alt="Portrait of a person with quote" media="(min-width: 1400px)">
-              <source srcset="zara1400by618.png" alt="Portrait of a person with quote" media="(min-width: 768px)">
-               <source srcset="zara800by400.png" alt="Portrait of a person with quote" media="(min-width: 576px)">
-              <img srcset="zara600by400.png" alt="Portrait of a person with quote" class="img-fluid">
+              <source srcset="rutvikandmoiz2000by850.png" alt="Portrait of a person with quote" media="(min-width: 1400px)">
+              <source srcset="rutvikandmoiz1400by618.png" alt="Portrait of a person with quote" media="(min-width: 768px)">
+               <source srcset="rutvikandmoiz800by400.png" alt="Portrait of a person with quote" media="(min-width: 576px)">
+              <img srcset="rutvikandmoiz600by400.png" alt="Portrait of a person with quote" class="img-fluid">
             </picture>
             
           </div>
-           <div class="carousel-item">
+          <div class="carousel-item">
             
               <picture>
-                <source srcset="group2000by851.png" alt="Rubaroo group picture" media="(min-width: 1400px)">
-                <source srcset="group1400by596.png" alt="Rubaroo group picture" media="(min-width: 768px)">
-                 <source srcset="group800by341.png" alt="Rubaroo group picture" media="(min-width: 576px)">
-                <img srcset="group600by255.png" alt="Rubaroo group picture" class="img-fluid">
+                <source srcset="shruti2000by850.png" alt="Rubaroo group picture" media="(min-width: 1400px)">
+                <source srcset="shruti1400by618.png" alt="Rubaroo group picture" media="(min-width: 768px)">
+                 <source srcset="shruti800by400.png" alt="Rubaroo group picture" media="(min-width: 576px)">
+                <img srcset="shruti600by400.png" alt="Rubaroo group picture" class="img-fluid">
               </picture>
              
             </div>
@@ -419,7 +410,7 @@
         relationships, and become socially conscious leaders in their own capacity.</em></p>
         <br>
         <br>
-        <button role="button" href"#" class="btn btn-secondary btn-lg">Learn more about Rubaroo</button>
+        <a class="btn btn-warning btn-lg" role="button" href="indexrubaroo.html" >Learn more about Rubaroo</a>
         </div>
        </div>
      </div>
@@ -434,34 +425,38 @@
          <div class="row" class="p-4">
           <div class="col-md-4">
             <h2 class="text-center display-4 p-3" class="pb-6">Why</h2>
-            <p><em>We, at Rubaroo aim to create an inclusive world which is empathetic about the world. We believe that change 
-              begins by finding/co-creating spaces where individuals are enabled to challenge and question all that they have 
-              known or have been told by others about themselves and the world around them. It is important to do so because only
-               by breaking down their own ‘stories’, and challenging themselves, that they can unleash within them the leadership 
-               to become conscious decision makers.</em></p>
+            <p><em>At Rubaroo, we aim to create a world which is empathetic and inclusive. 
+              We believe that change begins by finding, co-creating, and nurturing ‘spaces’ where individuals 
+              are enabled to challenge and question all that they have known or have been told by others about 
+              themselves and the world around them. It is important to do so because only by breaking down their 
+              own ‘stories’, and challenging themselves, that they can unleash within them the leadership to 
+              become socially conscious decision makers.</em></p>
           </div>
           <div class="col-md-4">
               <h2 class="text-center display-4 p-3" class="pb-6">Who</h2>
               <p><em>We’re a team of Instructional Designers and Facilitators. 
-                Our skills lie in co-designing and contextualizing programmes along with partner 
-                institutes and working with them to understand the needs of their participating group.</em></p>
+                Our skills lie in co-designing and contextualizing programmes in partnership with institutions.
+                 We analyse and sense the group while focussing on the vision and purpose of our programmes continuously.
+                  Our facilitators become mentors to young people who inspire them, by living and driving the values
+                   home consistently. Inclusion and empathy are values that can only be lived when practised everyday,
+                    as do our team of facilitators.</em></p>
             </div>
             <div class="col-md-4">
                 <h2 class="text-center display-4 p-3" class="pb-6">How</h2>
-                <p><em>We believe learning happens with our interaction with the world. Therefore, we create
-                   experiential based learning for young people through meaningful interactions. For us the 
-                   ‘world’ can be interaction with opposite gender, caste, religion any other identity, with 
-                   whom we would not have had the opportunity to understand their ‘story’. These learning spaces 
-                   are where young people can come together to learn, to teach, and to unlearn; to have fun, 
-                   take action and become proactive participants in their communities; by coming face to face 
-                   with themselves and the world around them.</em></p>
+                <p><em>We believe learning happens in our interaction with the world, 
+                  and we facilitate them to become meaningful through our experiential-based learning, with young people.
+                   For us, the ‘world’ could mean - any other gender, caste, religion, or diverse identities, with whom 
+                   we would not have had the opportunity to understand, become friends with, and learn from’. These 
+                   learning spaces are where young people can come together to have fun, take action, and become proactive 
+                   participants of their communities; by coming face to face with themselves and the world around them.
+                  </em></p>
                 </div>
               </div>
             </div>
                 <br>
                 <br>
                 <div class="text-center">
-                <button role="button" href"#" class="btn2 btn-secondary btn-lg">Learn more about our approach</button>
+                <a role="button" href="indexcontact.html" class="btn btn-warning btn-lg">Learn more about our approach</a>
               </div>              
         </div>
        </div>
@@ -482,7 +477,7 @@
              <div class="card-body">
               <h5 class="card-title m-3"><em>Early & Child Marriage</em></h5>
               <p class="card-text m-3"><em> A year long program focuses on early and child marriage. It aims to work in building the dreams and aspiration of adolescents and supports in their capacity to negotiate and take decisions which facilitates their leadership journey.</em></p>
-              <button role="button" href"#" class="btn3 btn-outline-warning m-3"><small><em>Read More</em></small></button>
+              <a href="indexrubaroo.html" class="btn btn-outline-warning m-3"><small><em>Read More</em></small></a>
             </div>
           </div>
 
@@ -491,25 +486,25 @@
               <div class="card-body">
                 <h5 class="card-title m-3"><em>Sustainable Development</em></h5>
               <p class="card-text m-3"><em>A 3-4 week program which is done through the medium of rural exposure and internship with grass-root level organizations. Young people decode what development means through systems-thinking.</em></p>
-              <button role="button" href"#" class="btn3 btn-outline-secondary m-3"><small><em>Read More</em></small></button>
+              <a role="button" href"#" class="btn btn-outline-secondary m-3"><small><em>Read More</em></small></a>
             </div>
           </div>
 
           <div class="card cardset2">
-            <img class="card-img-top" src="interfaith.jpg" alt="Youth holding posters"  class="img-responsive" style="max-width: 30rem;">
+            <img class="card-img-top" src="img/interfaith.jpg" alt="Youth holding posters"  class="img-responsive" style="max-width: 30rem;">
              <div class="card-body">
               <h5 class="card-title m-3"><em>Interfaith</em></h5>
               <p class="card-text m-3"><em>A program which works with young people on decoding what faith means and challenges stereotypes and misconception which one has about the 'others'. The aim is to celebrate diversity and promote community cohesion.</em></p>
-              <button role="button" href"#" class="btn3 btn-outline-secondary m-3"><small><em>Read More</em></small></button>
+              <a role="button" href"#" class="btn btn-outline-secondary m-3"><small><em>Read More</em></small></a>
            </div>
           </div>
           
           <div class="card cardset1">
-            <img class="card-img-top" src="campaign.jpg"  alt="Team Rubaroo during a campaign" class="img-responsive" style="max-width: 30rem;">
+            <img class="card-img-top" src="img/campaign.jpg"  alt="Team Rubaroo during a campaign" class="img-responsive" style="max-width: 30rem;">
              <div class="card-body">
               <h5 class="card-title m-3"><em>Campaign</em></h5>
               <p class="card-text m-3"><em>Rubaroo partners with Pravah and Commutiny - The Youth Collective in running National level campaigns which engages youth on various thematic like democracy, cross border friendship, active citizenship, gender.</em></p>
-              <button role="button" href"#" class="btn3 btn-outline-warning m-3"><small><em>Read More</em></small></button>
+              <a role="button" href"#" class="btn btn-outline-warning m-3"><small><em>Read More</em></small></a>
             </div>
           </div>
 
@@ -518,7 +513,7 @@
                <div class="card-body">
                 <h5 class="card-title m-3"><em>Gender</em></h5>
               <p class="card-text m-3"><em>Through this we break down the basic words like difference between 'sex' and 'gender' and how we knowingly and unknowingly keep conforming to gender norms. We facilitate in decoding that gender is not just women issues it includes all gender based identity.</em></p>
-              <button role="button" href"#" class="btn3 btn-outline-warning m-3"><small><em>Read More</em></small></button>
+              <a role="button" href"#" class="btn btn-outline-warning m-3"><small><em>Read More</em></small></a>
             </div>
           </div>
 
@@ -527,7 +522,7 @@
               <div class="card-body">
               <h5 class="card-title m-3"><em>Leadership</em></h5>
             <p class="card-text m-3"><em> At Rubaroo leadership does not mean leading others, we believe that anyone and everyone can be a leader in their own lives. For us leader is one who is inclusive in their action and contributes to change in any space.</em></p>
-            <button role="button" href"#" class="btn3 btn-outline-secondary m-3"><small><em>Read More</em></small></button>
+            <a role="button" href"#" class="btn btn-outline-secondary m-3"><small><em>Read More</em></small></a>
           </div>
         </div>
        </div> 
@@ -553,7 +548,7 @@
          <!-- upcoming events begin-->
         <div class="container">
           <div class="row pl-3">
-            <h1><em>upcoming events</em></h1>
+            <h1><em>Upcoming events</em></h1>
           </div>
         </div>
           <br>
@@ -622,7 +617,7 @@
                     </div>
                     <div class="col-xl- col-lg-3 col-md-3 col-sm-12">
                       <ul class="list-unstyled">
-                          <li><a href="">Contact Us</a></li>
+                          <li><a href="">Careers</a></li>
                           <li><a href="">Get Brochure</a></li>
                       </ul>
                     </div>
@@ -637,15 +632,16 @@
               </footer>
          <!-- footer ends-->
 
-         
 
-     
+      
 
+      
 
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="bootstrap-4-navbar.js"></script>
-  </body>
+      
+      <script src="js/jquery.min.js"></script>
+      <script src="js/tether.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap-4-navbar.js"></script>
+    </body>
+
 </html>
